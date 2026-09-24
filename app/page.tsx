@@ -8,7 +8,7 @@ export default async function HomePage() {
 
   return (
     <main className="mx-auto max-w-6xl p-8">
-      <h1 className="mb-10 text-4xl font-semibold">🛏️ Casas Rurales</h1>
+      <h1 className="mb-10 text-4xl font-semibold">Casas Rurales</h1>
 
       <ul className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
         {houses.map((house) => (

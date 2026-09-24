@@ -19,12 +19,12 @@ export default async function HouseDetailPage({
 
   return (
     <main className="mx-auto max-w-5xl p-8">
-      <Link href="/" className="mb-6 inline-block text-sm hover:underline">
-        ← Volver al listado
+      <Link href="/" className="mb-6 inline-block text-sm text-blue-600 hover:text-blue-800 hover:underline">
+        Volver al listado
       </Link>
 
       <header className="mb-8 flex flex-wrap items-center justify-between gap-4">
-        <h1 className="text-4xl font-semibold">🛏️ {house.name}</h1>
+        <h1 className="text-4xl font-semibold">{house.name}</h1>
         <p className="text-3xl">{house.price}€ / noche</p>
       </header>
 

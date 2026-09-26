@@ -59,3 +59,4 @@ Route (app)            Revalidate  Expire
 - Página 404 para casas inexistentes: la API responde con un cuerpo vacío en lugar de un 404, así que la capa de datos lo detecta y la página llama a `notFound()`.
 - Datos obtenidos en Server Components, sin exponer la URL de la API al cliente como variable pública.
 - Estilos con Tailwind CSS, compatibles con server-side rendering.
+- **Opcional**: formulario de reserva con fechas de entrada y salida, implementado como componente de cliente que llama a una Server Action. La reserva es simulada (la API no tiene endpoint de reservas), pero el precio se calcula en el servidor a partir del id de la casa.
